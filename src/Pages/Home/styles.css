@@ -1,0 +1,38 @@
+.content{
+    position: relative;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+.bg{
+    position: absolute;
+    left: 0;
+    height: 100vh;
+}
+.info{
+    width: 65%;
+    margin-right: 100px;
+    margin-top: 40px;
+    color: white;
+}
+input{
+    border: 1px solid #999;
+    border-radius: 25px;
+    min-width: 250px;
+    margin-right: 10px;
+    width: 80%;
+    background: transparent;
+    font-size: 20px;
+    padding: 12px;
+    color: white;
+}
+button{
+    border: 1px solid #999;
+    border-radius: 25px;
+    margin-right: 10px;
+    color: #fff;
+    background: #2d333b;
+    font-size: 20px;
+    padding: 12px;
+}
