@@ -1,6 +1,7 @@
 import { Header } from "../../Components/Header";
 import background from "../../Assets/bg.png";
 import "./styles.css"
+import ItemList from "../../Components/ItemList";
 
 function App() {
   return (
@@ -22,6 +23,12 @@ function App() {
             </article>
           </section>
           <hr />
+          <section className="repositorios">
+            <h3>Repositórios</h3>
+            <ItemList title="Teste 1" desc="lorem ipsum"/>
+            <ItemList title="Teste 2" desc="lorem ipsum"/>
+            <ItemList title="Teste 3" desc="lorem ipsum"/>
+          </section>
         </main>
       </div>
     </div>
