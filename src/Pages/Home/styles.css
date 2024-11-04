@@ -21,7 +21,7 @@ input{
     border-radius: 25px;
     min-width: 250px;
     margin-right: 10px;
-    width: 80%;
+    width: 87%;
     background: transparent;
     font-size: 20px;
     padding: 12px;
@@ -35,4 +35,38 @@ button{
     background: #2d333b;
     font-size: 20px;
     padding: 12px;
+}
+.perfil{
+    display: flex;
+    margin: 40px 0;
+}
+.profile{
+    border-radius: 100%;
+    width: 128px;
+    height: 128px;
+    border: 2px solid #e5e5e5;
+    margin-right: 32px;
+}
+
+.perfil h3{
+    color: #999;
+    font-size: 24px;
+    margin: 0;
+}
+.perfil h4{
+    color: #aaa;
+    font-size: 18px;
+    margin: 0;
+}
+.perfil span{
+    display: block;
+    color: #bbb;
+    font-size: 12px;
+    margin: 0;
+}
+
+.perfil p{
+    color: #bbb;
+    font-size: 12px;
+    margin-top: 20px;
 }
